@@ -1,0 +1,65 @@
+body {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  background-color: rgb(52, 52, 104);
+}
+
+header {
+  display: inline-flex;
+  text-align: center;
+  margin-top: 5px;
+}
+header img {
+  height: 100px;
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 36px;
+  padding: 29px;
+  background-color: white;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: 0.8px;
+}
+
+th {
+  background-color: gray;
+}
+
+td {
+  background-color: lightgrey;
+}
+
+table td:first-child {
+}
+
+table {
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  z-index: 5;
+}
+
+table img {
+  height: 100px;
+}
